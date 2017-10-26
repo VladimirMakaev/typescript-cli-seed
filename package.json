@@ -1,0 +1,37 @@
+{
+  "name": "your-command-name",
+  "version": "0.0.1",
+  "description": "Your command description",
+  "main": "dist/index.js",
+  "bin": {
+    "your-command-name": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your-git-repo-link"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "pkginfo": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "@types/commander": "^2.11.0",
+    "@types/node": "^8.0.47",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.5.3"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "mocha -r ts-node/register --recursive ./src/**/*.spec.ts*"
+  },
+  "author": "Vladimir Makayev",
+  "license": "MIT",
+  "keywords": [
+    "cli"
+  ]
+}
