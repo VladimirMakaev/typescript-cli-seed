@@ -11,19 +11,19 @@
     "url": "your-git-repo-link"
   },
   "dependencies": {
-    "commander": "^3.0.2",
+    "commander": "^5.1.0",
     "pkginfo": "^0.4.1"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
     "@types/commander": "^2.12.2",
-    "@types/mocha": "^5.2.7",
-    "@types/node": "^10.14.21",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^14.0.13",
     "chai": "^4.2.0",
-    "mocha": "^6.2.1",
-    "ts-node": "^8.4.1",
-    "tslint": "^5.20.0",
-    "typescript": "^3.6.4"
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.5"
   },
   "scripts": {
     "start": "ts-node ./src/index.ts",
