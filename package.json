@@ -11,7 +11,7 @@
     "url": "your-git-repo-link"
   },
   "dependencies": {
-    "commander": "^5.1.0",
+    "commander": "^6.1.0",
     "pkginfo": "^0.4.1"
   },
   "devDependencies": {
